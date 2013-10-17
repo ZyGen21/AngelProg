@@ -10,8 +10,8 @@ public class Ejercicio1 {
 		String nombre;
 		Scanner input;
 		
-		input = new Scanner(System.in);
 		System.out.println("¿Cómo te llamas?");
+		input = new Scanner(System.in);
 		
 		nombre=input.nextLine();
 		System.out.println("Hola, "+nombre);
