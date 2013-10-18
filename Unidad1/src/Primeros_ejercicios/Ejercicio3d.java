@@ -22,6 +22,7 @@ public class Ejercicio3d {
 		EjeY = y2 - y1;
 		Area = EjeX * EjeY;
 		System.out.println("El área del círculo es: " + Area + " cm2");
+	teclado.close();
 	}
 
 }

@@ -15,6 +15,7 @@ public class Ejercicio3e {
 		cateto2 = teclado.nextDouble();
 		hipotenusa = Math.sqrt(Math.pow(cateto1, 2)+ Math.pow(cateto2, 2));
 		System.out.println("La longitud de la hipotenusa del triángulo es:" + hipotenusa + "cm");
+	teclado.close();
 	}
 
 }

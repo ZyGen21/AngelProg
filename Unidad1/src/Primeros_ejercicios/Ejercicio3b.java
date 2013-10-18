@@ -12,6 +12,7 @@ public class Ejercicio3b {
 		teclado.close();
 		System.out.println("El perímetro del círculo es: " + ((Math.PI)*radio)*2 + " cm");
 		System.out.println("El área del círculo es: " + (radio*radio)*(Math.PI) + " cm2");
+	teclado.close();
 	}
 
 }

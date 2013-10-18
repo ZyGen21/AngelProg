@@ -17,6 +17,7 @@ public class Ejercicio3a {
 		teclado.close();
 		System.out.println("El perímetro del rectángulo es: " + (base+altura)*2 + " cm");
 		System.out.println("El área del rectángulo es: " + base*altura + " cm2");
+	teclado.close();
 	}
 
 }
