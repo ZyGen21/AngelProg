@@ -17,6 +17,7 @@ public class Ejercicio4 {
 		System.out.println("Introduce tu peso en kilogramos: ");
 		peso = teclado.nextFloat();
 		System.out.println("\n Tu peso en Onzas es: " + (peso * onzas_por_kilo) + " onzas");
+	teclado.close();
 	}
 
 }
